@@ -1,3 +1,5 @@
 import { io } from 'socket.io-client'
 
-export const socket = io(import.meta.env.VITE_API_URL)
+const SOCKET_URL = 'https://party-game-v2.onrender.com'
+
+export const socket = io(SOCKET_URL)

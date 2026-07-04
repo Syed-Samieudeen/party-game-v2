@@ -1,5 +1,7 @@
 import axios from 'axios'
 
+const API_URL = 'https://party-game-v2.onrender.com'
+
 export const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: API_URL,
 })
